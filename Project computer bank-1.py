@@ -17,7 +17,7 @@ def take_data():
 	return 0
 
 def other_options():
-	ch = int(input("1.Check Balance\n2.Withdraw\n3.Deposite\n4. Close account\nEnter choice :"))
+	ch = int(input("1.Check Balance\n2.Withdraw\n3.Deposite\n4. Close account\n4.Delete account\nEnter choice :"))
 	if ch == 1:
 		print("Available Balance:",data[acc_num]["Amount"])
 		print("________________________________________________________________________________")
@@ -37,9 +37,9 @@ def other_options():
 		print("Deposite successful.")
 		print("Available Balance:",data[acc_num]["Amount"])
 		print("________________________________________________________________________________")
-    elif ch == 4 :
-        print("Hello")
-	
+	elif ch == 4:
+                print("Hello")
+
 while True:
 	list2=[]
 	ch=int(input("1.New Customer\n2.Existing Customer\n3.Exit\nEnter choice:"))
