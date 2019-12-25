@@ -68,7 +68,7 @@ def other_options(acc_num):
 
         elif choice == "4":
             print("Existing Govt ID: ")
-            print(data[acc_num][""])
+            print(data[acc_num]["govt_id"])
             data[acc_num]["govt_id"] = input("Enter new Govt. ID type: ")
             print("Successfull")
 
